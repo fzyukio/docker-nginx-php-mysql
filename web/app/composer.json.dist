@@ -7,16 +7,17 @@
         "phpmd/phpmd": "@stable",
         "phpunit/phpunit": "^7.0",
         "roave/better-reflection": "dev-master#c87d856",
-        "squizlabs/php_codesniffer": "3.*"
+        "squizlabs/php_codesniffer": "3.*",
+        "overtrue/phplint": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "App\\Acme\\": "src/"
+            "App\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "AppTest\\Acme\\": "test/"
+            "AppTest\\": "test/"
         }
     },
     "minimum-stability": "stable",
